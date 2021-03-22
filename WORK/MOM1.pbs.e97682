@@ -1,0 +1,18 @@
+Currently Loaded Modulefiles:
+ 1) intel-suite/2016.3   3) netcdf/4.3.3          
+ 2) mpi/intel-5.1        4) hdf5/1.8.14-parallel  
+
+WARNING from PE     0: depth_list_setup: ./Depth_list.nc does not exist.  Creating a new file.
+
+
+WARNING from PE     0: MPP_OPEN: File ./CPU_stats opened WRONLY already exists!
+
+
+WARNING from PE     0: MPP_OPEN: File ./ocean.stats opened WRONLY already exists!
+
+
+WARNING from PE     0: MPP_OPEN: File RESTART/ocean_solo.res opened WRONLY already exists!
+
+                              20190427 214058.651: Memuse(MB) at Memory HiWaterMark=  7.931E+01  1.741E+02  2.261E+01  8.656E+01
+Warning: Permanently added 'cx1-108-4-2.cx1.hpc.ic.ac.uk,192.168.96.108' (RSA) to the list of known hosts.
+cp: cannot stat ‘/var/tmp/pbs.97682.pbs/*.nc’: No such file or directory

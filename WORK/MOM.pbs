@@ -1,0 +1,17 @@
+#!/bin/sh
+#PBS -l walltime=72:00:00
+#PBS -l select=1:ncpus=16:mem=3200mb
+# PBS -q pqberloff
+
+
+module load intel-suite/2016.3
+module load mpi/intel-5.1
+module load netcdf/4.3.3
+module load hdf5/1.8.14-parallel
+module list
+
+cd ${HOME}/MOM6/WORK/
+mpiexec MOM6
+pbsdsh2 cp ${TMPDIR}/\*.nc ${HOME}/MOM6/WORK/
+
+
